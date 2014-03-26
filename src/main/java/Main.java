@@ -21,7 +21,7 @@ public class Main extends JavaPlugin {
             Metrics metrics = new Metrics(this);
             metrics.start();
         } catch (IOException e) {
-            logger.info("Failed to submit Metrics stats.");;
+            logger.info("Failed to submit Metrics stats.");
             // Failed to submit the stats :-(
         }
     }

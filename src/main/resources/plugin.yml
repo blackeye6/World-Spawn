@@ -1,0 +1,25 @@
+name: World Spawn
+main: me.xTDKx.Main.Main
+version: 2.1
+author: xTDKx
+description: >
+             Sets the world spawn!
+commands:
+  ws:
+    description: All commands for World Spawn!
+permissions:
+  worldspawn.*:
+    description: Permission for all world spawn commands!
+    children:
+      worldspawn.set: true
+      worldspawn.to: true
+      worldspawn.send: true
+  worldspawn.set:
+    description: Sets the world spawn!
+    default: op
+  worldspawn.to:
+    description: Teleports you to the world spawn!
+    default: op
+  worldspawn.send:
+    description: Teleports a specified player to the world spawn!
+    default: op
